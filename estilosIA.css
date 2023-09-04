@@ -1,0 +1,90 @@
+/* Reset de estilos */
+body, ul, li, p, h1, h2, form, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+/* Estilos de secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+
+/* Estilos de categoría */
+.categoria {
+    margin-top: 20px;
+    display: none; /* Oculta todas las categorías por defecto */
+}
+
+.categoria:target {
+    display: block; /* Muestra la categoría seleccionada */
+}
+
+.categoria h2 {
+    margin-bottom: 10px;
+}
+
+/* Estilos de plantas */
+.planta {
+    border: 1px solid #0d00ff;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
